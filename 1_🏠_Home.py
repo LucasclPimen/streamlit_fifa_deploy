@@ -35,10 +35,7 @@ st.markdown("# FIFA23 OFFICIAL DATASET! ⚽")
 
 st.sidebar.markdown('Desenvolvido por [Asimov Academy](https://asimov.academy)') # coloca links no que está entre colchetes
 
-btn = st.button('Acesse os dados no Kaggle')
-
-if btn:
-    webbrowser.open_new_tab('https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data') # comando que permite abrir links naturalmente
+btn = st.link_button('Acesse os dados no Kaggle','https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data')
 
 
 st.markdown(
